@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #include "compression.hpp"
 
 #include <iostream>
+=======
+#include <forward_list>
+
+#include "compression.hpp"
+>>>>>>> 20759abaa103236f2c228474b7a2172b04975f99
 
 std::array<std::array<uint8_t, 32>, 32> generateNinja() {
     return {
